@@ -1,4 +1,4 @@
-package _01_else_if._3_high_low;
+package _01_else_if._4_are_you_happy;
 
 import javax.swing.JOptionPane;
 
