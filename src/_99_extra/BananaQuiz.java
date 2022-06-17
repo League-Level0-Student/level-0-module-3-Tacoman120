@@ -22,8 +22,16 @@ public class BananaQuiz
 		String bana = JOptionPane.showInputDialog(null, "do you like bananas?");
 		if(bana.equals("no")) {
 			JOptionPane.showMessageDialog(null, "You are crazy!");
+		}else if(bana.equals("No")) {
+			JOptionPane.showMessageDialog(null, "You are crazy!");
+		}else if(bana.equals("Yes")) {
+			String hobby = JOptionPane.showInputDialog(null, "what is your favorite hobby?");
+			JOptionPane.showMessageDialog(null, hobby+" is much better with bananas!");
 		}else if(bana.equals("yes")) {
-			String hobby = JOptionPane.showInputDialog(null, "what ")
+			String hobby = JOptionPane.showInputDialog(null, "what is your favorite hobby?");
+			JOptionPane.showMessageDialog(null, hobby+" is much better with bananas!");
+		}else {
+			JOptionPane.showMessageDialog(null, "You are crazy!");
 		}
 	}
 
